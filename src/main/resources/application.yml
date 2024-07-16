@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: tienda-backend
+  datasource:
+    url: jdbc:mysql://localhost:3306/tienda_db
+    username: root
+    password: givamaya9211
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+server:
+  port: 8080
